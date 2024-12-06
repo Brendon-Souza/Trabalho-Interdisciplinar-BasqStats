@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body {
+    font-family: "Black Ops One", system-ui;
+
+    background-image: url("../img/login.webp");
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(41, 41, 41);
+    font-size: 32px;
+}
+
+body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10% auto;
+    padding: 8px;
+    width: 50vw;
+
+    background-color: rgba(231, 234, 237, .6);
+
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#form img {
+    width: 25%;
+}
+
+#form input {
+    font-size: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+#form input:hover, input:focus {
+    outline: none;
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+}
+
+#form input#loginBtn {
+    margin: 5% 0;
+    background-color: rgb(249, 3, 3);
+}
+
+#form input#loginBtn:hover {
+    transform: scale(1.2);
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}

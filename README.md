@@ -1,1 +1,2 @@
-# Trabalho-Interdisciplinar-BasqStats
+# BasqStats
+Projeto Interdisciplinar
